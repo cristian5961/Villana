@@ -2,7 +2,7 @@
 
 // Obtener la fecha del próximo año
 const today = new Date();
-const nextYear = today.getFullYear() + 1;
+const nextYear = today.getFullYear();
 const targetDate = new Date(`June 1, ${nextYear} 00:00:00`).getTime();
 
 // Función para actualizar la cuenta regresiva
